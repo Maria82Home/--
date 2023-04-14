@@ -17,18 +17,24 @@
 # где сумма первых трех цифр равна сумме последних трех. Т.е. билет с номером 385916 – счастливый, 
 # т.к. 3+8+5=9+1+6. Вам требуется написать программу, которая проверяет счастливость билета.
 
-#print('Input ticket number')
-#a = input()
-#print(int(a)%10+int(a)//10%10+int(a)//100%10 == int(a)//1000%10+int(a)//10000%10+int(a)//100000%10)
+print('Input ticket number')
+a = input()
+if (int(a)%10+int(a)//10%10+int(a)//100%10 == int(a)//1000%10+int(a)//10000%10+int(a)//100000%10):
+    print('yes')
+else:
+    print('no')
 
 # Задача 8: Требуется определить, можно ли от шоколадки размером n × m долек отломить k долек, 
 # если разрешается сделать один разлом по прямой между дольками (то есть разломить шоколадку 
 # на два прямоугольника).
 
-print('Input number n')
-n = int(input())
-print('Input number m')
-m = int(input())
-print('Input number k')
-k = int(input())
-print(k%n==0 or k%m==0)
+#print('Input number n')
+#n = int(input())
+#print('Input number m')
+#m = int(input())
+#print('Input number k')
+#k = int(input())
+#if (k%n == 0 or k%m == 0):
+    #print('yes')
+#else:
+ #   print('no')
