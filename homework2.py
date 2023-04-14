@@ -38,6 +38,6 @@ else:
 #print('Input N')
 #N = int(input())
 #k=0
-#while (2**k<N):
+#while (2**k<=N):
     #print(2**k)
     #k=k+1
